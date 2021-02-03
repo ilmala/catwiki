@@ -5,7 +5,7 @@
                  style="background-image: url('/img/HeroImagelg.png')">
                 <Logo class="w-72 text-white"/>
 
-                <p class="mt-3 text-xl text-white">
+                <p class="mt-3 text-2xl text-white">
                     Get to know more about your cat breed
                 </p>
 
@@ -16,11 +16,29 @@
                     <span class="absolute inset-y-0 right-6 flex justify-center items-center">
                         <svg class="w-4 h-4 text-gray-900 " xmlns="http://www.w3.org/2000/svg" fill="none"
                              viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
-</svg>
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
                     </span>
+
+                    <div class="absolute z-40 mt-3 p-3 inset-x-0 bg-white rounded-3xl shadow-xl">
+                        <div class="overflow-y-auto h-52">
+                            <ul class="">
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="bg-gray-100 block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                                <li><a class="block hover:bg-gray-100 leading-5 px-3 py-3 rounded-xl transition duration-200" href="">America bobtail</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
             <div class="pt-10 pb-24 px-28 bg-gray-200 rounded-b-3xl">
@@ -31,8 +49,10 @@
                     <h2 class="font-black text-5xl w-1/2">66+ Breeds For you to discover</h2>
                     <a href="" class="inline-flex items-center space-x-2 mt-10 font-semibold uppercase">
                         <span>See more</span>
-                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                         </svg>
                     </a>
                 </div>
@@ -78,8 +98,10 @@
 
                         <a href="" class="inline-flex items-center space-x-2 mt-10 font-semibold uppercase">
                             <span>Read more</span>
-                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                             </svg>
                         </a>
                     </div>
@@ -94,6 +116,7 @@
                 </div>
             </div>
         </section>
+
     </Layout>
 </template>
 
